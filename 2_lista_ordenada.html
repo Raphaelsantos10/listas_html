@@ -1,0 +1,82 @@
+<!-- Preparo da torta salgada
+Sintaxe
+Uma lista ordenada se inicia e se encerra respectivamente através das tags <ol> e </ol>.
+
+Um item da lista se inicia e se encerra respectivamente através das tags <li> e </li>.
+
+Dentro de um item podemos utilizar qualquer elemento HTML que quisermos como títulos, parágrafos, imagens e até mesmo outras listas (chamamos de aninhamento).
+
+Atributo de Marcação (type)
+Uma lista ordenada pode ser identificada pelo seu marcador e, por padrão, ele vem definido como ordenação numérica. Podemos também alterar o padrão por outros quatro tipos: numerais romanos ou ordenação alfabética e ambos os casos podem ser usados na forma minúscula ou maiúscula.
+
+<ol type="1"> - ordenação numerica (padrão)    1,2,3
+<ol type="a"> - ordenação alfabética minúscula a,b,c
+<ol type="A"> - ORDENAÇÃO ALFABÉTICA MAIÚSCULA A,B,C
+<ol type="i"> - numeros romanos minúsculos     i,ii,iii
+<ol type="I"> - NUMEROS ROMANOS MAIÚSCULOS     I,II,III          
+    
+                   Ponto de partida (start)
+Podemos definir um ponto de partida para a classificação dos itens, dessa forma a numeração começará a partir de um número especificado no atributo start.
+
+!DOCTYPE html>
+<html>
+<head>
+    <title>Lista ordenada</title>
+</head>
+<body>
+    <ol start="3">------------------ começando do numero 3
+        <li>Item</li>--------------------------------------------------3.
+        <li>Item</li>--------------------------------------------------4.
+        <li>Item</li>--------------------------------------------------5.
+    </ol>
+</body>
+</html>
+
+Invertendo a Ordem (reversed)
+Através do atributo reversed informamos que o comportamento da nossa lista será de maneira reversa.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista ordenada</title>
+</head>
+<body>
+    <ol reversed>------------------ começando do numero 3 de trás para frente
+        <li>Item</li>--------------------------------------------------3.
+        <li>Item</li>--------------------------------------------------2.
+        <li>Item</li>--------------------------------------------------1.
+    </ol>
+</body>
+</html>-->
+
+//codificação utilizada para construir a lista de estudos ordenada.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista Aninhada</title>
+</head>
+<body>
+  <!-- Cronograma de estudos -->
+  <ol>
+    <li>
+      <h3>FRONT-END</h3>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Bootstrap</li>
+      </ol>
+    </li>
+    <li>
+      <h3>BACK-END</h3>
+      <ol>
+        <li>Lógica de programação com PHP</li>
+        <li>Estrutura de dados com PHP</li>
+        <li>Orientação a objetos com PHP</li>
+      </ol>
+    </li>
+  </ol>
+</body>
+</html>
+
+
+//No Código 5 temos a codificação utilizada para construir a lista de estudos.
